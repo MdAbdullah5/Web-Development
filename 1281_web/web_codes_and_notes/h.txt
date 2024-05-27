@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="tut13.css"> -->
+    <!-- part of 17 -->
+   <style>
+    body{
+        background-color: rgb(214, 199, 199);
+    }
+    .container{
+        width: 900px;
+        border: 5px solid rgb(220, 101, 154);
+        background-color: rgb(244, 161, 248);
+        margin: auto;
+    }
+      #firstPara{
+        color:rgb(141, 40, 184);
+        background-color:aqua;
+        margin: auto;
+        width: 55px;
+        margin: auto;
+
+     }
+     #secondpara{
+
+       /* color:black;
+      background-color: red;
+      font-family: cursive;        /*color by nmae*/
+      font-size: s33px;
+      line-height: 8em;
+      font-weight: bold;
+      border-top:5px solid violet;
+      padding : 23px 44px 110px 45px; 
+      
+     }
+     /* pixel 1/96of inch */
+    #thirdpara{
+      color:rgb(0,0,0);  /*color by function*/
+      background-color: #ff5f;   /*color by hex value */
+      height: 300px;
+      width: 300px;
+      /* border-width: 5px;
+      border-color: green;
+      border-style: solid; */
+      border: 5px solid blue;
+      border-radius: 13px;
+      background-image: url('https://tse2.mm.bing.net/th?id=OIP.gASMlPqsrIt_9q8Y76PZKgHaFj&pid=Api&P=0');
+      background-repeat: no-repeat;  /*repeat x and repeat y will repeat ur image in respective directions*/
+      /* background-position: 122px; */
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+    <p id="firstPara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique praesentium beatae magnam voluptas repellat magni eaque labore atque earum? Quam eius sunt fugiat facilis, accusamus minus praesentium aperiam est beatae.</p><br>
+    <p id="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cupiditate, voluptatum fuga odit ipsam in assumenda repellat tempore, ex temporibus commodi quo animi suscipit quidem natus magnam delectus quae sapiente.</p>
+    <p id="thirdpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos at reprehenderit ipsa commodi sapiente eaque deserunt delectus in voluptatem ratione esse beatae rerum molestiae, dolorem laborum facilis fugiat aperiam?</p>
+</div>
+</body>
+</html>
+
+
+foot clear margins and borders learnrd in the last classes
+
+
+
+
+
+ part 23
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation</title>
+  <style>
+   .navbar{
+    background-color: red;
+    border-radius: 30px;
+   }
+   .navbar ul{
+    overflow: auto;
+   }
+   .navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px 20px;
+    margin: 13px 13px;
+   }
+  
+   .navbar a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: azure;
+   }
+   .navbar a:hover{
+    color:aquamarine;
+   }
+   .search{
+     float: right;
+     padding:12px 75px;
+
+   }
+   .navbar input{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 3px;
+   }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a  href="">Contact us</a></li>
+        <div class="search">
+          <input type="text" name="search" placeholder="search any website">
+        </div>
+      </ul>
+    </nav>
+  </header>
+</body>
+</html>
+
+
+part 24
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Property</title>
+  <style>
+    header{
+      margin: auto;
+      border: 2px solid green;
+      width: 20%;
+    }
+    img{
+      width: 34px;
+      display: block;
+      margin: auto;
+      
+    }
+    h3{
+      text-align: center;
+      margin:0px;
+    }
+    .container{
+      margin: auto;
+      width: 1200px;
+    
+    }
+    .box{
+      border: 4px solid black;
+      background-color: blueviolet;
+      margin: 4px;
+      padding: 4px;
+      display: inline-block;
+      width: 30%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    
+    <img src="https://www.codewithharry.com/_next/image/?url=%2Fimg%2Flogo-blue.png&w=48&q=75" alt="">
+    <h3>Welcome to my blog</h3>
+    
+  </header>
+  <div class="container">
+    <div class="box">
+      <h4>Heading</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellendus est nisi sunt molestiae sapiente, pariatur similique doloremque incidunt, reprehenderit distinctio maxime, possimus iste. Consequuntur repellendus fuga nemo! Perspiciatis ea odit possimus repellat quam.</p>
+    </div>
+    <div class="box">
+      <h4>Heading</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellendus est nisi sunt molestiae sapiente, pariatur similique doloremque incidunt, reprehenderit distinctio maxime, possimus iste. Consequuntur repellendus fuga nemo! Perspiciatis ea odit possimus repellat quam.</p>
+    </div>
+    <div class="box">
+      <h4>Heading</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque repellendus est nisi sunt molestiae sapiente, pariatur similique doloremque incidunt, reprehenderit distinctio maxime, possimus iste. Consequuntur repellendus fuga nemo! Perspiciatis ea odit possimus repellat quam.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+part 24
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      border: 2px solid black;
+      background-color: rebeccapurple;
+      height: 3444px;
+    }
+    .box{
+      border: 2px solid red;
+      width: 150px;
+      height: 150px;
+      margin: 2px;
+      display: inline-block;
+    }
+    #box3{
+      /* relative: relative to its normal position will leave a gap at its normal position */
+      /* position:relative */
+      /* absolute:relative to position of its first pareent */
+      /* position: fixed;
+      right: 0px;
+      bottom: 2px; */
+      /*fixed: position relative to the browser window  */
+      /* position:sticky;
+      top: 3px; */
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="box" id="box1">1</div>
+  <div class="box" id="box2">2</div>
+  <div class="box" id="box3">chat with us</div>
+  <div class="box" id="box4">4</div>
+  </div>>
+</body>
+</html>
+
+
+part 27
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility and z index</title>
+    <style>
+        .box{
+            width: 170px;
+            height: 170px;
+            border: 2px solid khaki;
+        }
+        #box1{
+            position: relative;
+            top: 49px;
+            background-color: green;
+             z-index: 39;
+        }
+        #box2{
+            position: relative;
+            top: 36px;
+             /* display: none; */
+             /* will hide the place */
+            /* visibility: hidden; */
+            /* will hide the box */
+            background-color: red;
+        }
+        #box3{
+            background-color: blue;
+        }
+        #box4{
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>
+
+
+part 29
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            flex-flow:row wrap;
+        }
+        .item{
+            background-color: tomato;
+            border: 2px solid rebeccapurple;
+            margin: 10px;
+             width: 150px;
+           height: 150px;
+           padding: 11px;
+           /*
+           justify:center;
+           align-items:stretch;
+           */
+
+        }
+        .item1{
+            order: 2;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is flex box</h1>
+    <div class="container">
+        <div class="item" id="item1">First Box</div>
+        <div class="item" id="item2">Second Box</div>
+        <div class="item" id="item3">Third Box</div>
+        <div class="item" id="item4">Fourth Box</div>
+        <div class="item" id="item5">Fifth Box</div>
+        <div class="item" id="item6">Sixth Box</div>
+    </div>
+</body>
+</html> -->
